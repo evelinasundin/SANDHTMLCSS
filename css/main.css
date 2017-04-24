@@ -3,12 +3,6 @@
 @font-face {
   font-family: "bebasneue";
   src: url(../fonts/bebasneue.otf); }
-@font-face {
-  font-family: "Montserrat Light";
-  src: url(../fonts/Montserrat-Light.otf); }
-@font-face {
-  font-family: "Montserrat Regular";
-  src: url(../fonts/Montserrat-Regular.otf); }
 body {
   margin: 0;
   padding: 0;
@@ -31,7 +25,7 @@ body {
   border-radius: 1em;
   height: 0.125rem;
   width: 1.625rem;
-  background: #ffc935;
+  background: #ffc930;
   transition: all 0.2s ease;
   -ms-transition: all 0.2s ease; }
 
@@ -72,7 +66,7 @@ body {
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.9);
-  color: #ffc935;
+  color: #ffc930;
   text-align: center;
   z-index: 99;
   height: 50%; }
@@ -217,14 +211,16 @@ h2 {
   text-align: center;
   font-size: 2.500rem;
   letter-spacing: 0.125rem;
-  font-family: "bebasneue", sans-serif;
+  font-family: "bebasneue", Impact, Charcoal, sans-serif;
   text-decoration: none;
-  color: #000; }
+  color: #000;
+  text-transform: uppercase; }
 
 h3 {
-  font-family: "bebasneue";
+  font-family: "bebasneue", Impact, Charcoal, sans-serif;
   font-size: 1.500rem;
-  letter-spacing: 0.125rem; }
+  letter-spacing: 0.125rem;
+  text-transform: uppercase; }
 
 .color-eye {
   color: #ffbe32; }
@@ -410,9 +406,10 @@ h3 {
   text-align: center; }
 
 .about-ingress {
-  font-family: "bebasneue";
+  font-family: "bebasneue", Impact, Charcoal, sans-serif;
   font-size: 1.500rem;
-  color: #ffc935; }
+  color: #ffc930;
+  text-transform: uppercase; }
 
 h6 {
   display: none; }
@@ -440,11 +437,11 @@ h6 {
   text-transform: uppercase; }
 
 .workers-text p:nth-of-type(1) {
-  font-family: "bebasneue";
+  font-family: "bebasneue", Impact, Charcoal, sans-serif;
   font-size: 1.5em;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ffc935;
+  color: #ffc930;
   letter-spacing: 0.1rem; }
 
 .email {
@@ -475,10 +472,11 @@ h6 {
   background-size: contain; }
 
 h4 {
-  font-family: "bebasneue";
+  font-family: "bebasneue", Impact, Charcoal, sans-serif;
   font-size: 1.500rem;
   color: #000;
-  letter-spacing: 0.125rem; }
+  letter-spacing: 0.125rem;
+  text-transform: uppercase; }
 
 div.map-icon {
   position: absolute;
@@ -516,7 +514,7 @@ div.map-icon {
   display: flex;
   flex-direction: row;
   display: table;
-  background-color: #ffc935; }
+  background-color: #ffc930; }
 
 .footer-links {
   float: right;
@@ -601,7 +599,7 @@ div.map-icon {
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.9);
-    color: #ffc935;
+    color: #ffc930;
     text-align: center;
     z-index: 99;
     height: 50%; }
