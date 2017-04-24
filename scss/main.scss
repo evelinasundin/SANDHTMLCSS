@@ -30,13 +30,14 @@ $color-sand: #BCA78A;
 
 //FONTS 
 
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
 @font-face {
     font-family: "bebasneue";
     src: url(../fonts/bebasneue.otf);
     
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
-
 
 //BODY
 
@@ -186,7 +187,7 @@ nav {
     list-style: none;
     text-decoration: none;
     color: white;
-    font-family: "Montserrat Regular", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-size: 1.250rem;
     letter-spacing: 0.2em;
@@ -280,7 +281,7 @@ header img:nth-of-type(4) {
     margin-right: 5%;
     margin-left: 5%;
     position: relative;
-    display: table; // table gör att section-elementen lägger sig på rad tait bort table cell
+    display: table cell; // table gör att section-elementen lägger sig på rad tait bort table cell
 }
 
 //WORK SECTION 
@@ -591,7 +592,7 @@ h6 {    //la till denna, annars blir det warning när man validerar
 }
 
 .workers-text p:nth-of-type(1) {
-    font-family: "bebasneue", Impact, Charcoal, sans-serif;
+    font-family: "bebas neue", Impact, Charcoal, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
