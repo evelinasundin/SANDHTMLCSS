@@ -211,13 +211,13 @@ h2 {
   text-align: center;
   font-size: 2.500rem;
   letter-spacing: 0.125rem;
-  font-family: "bebasneue", Impact, Charcoal, sans-serif;
+  font-family: "bebasneue", Helvetica, Impact, Charcoal, sans-serif;
   text-decoration: none;
   color: #000;
   text-transform: uppercase; }
 
 h3 {
-  font-family: "bebasneue", Impact, Charcoal, sans-serif;
+  font-family: "bebasneue", Helvetica, Impact, Charcoal, sans-serif;
   font-size: 1.500rem;
   letter-spacing: 0.125rem;
   text-transform: uppercase; }
@@ -406,7 +406,7 @@ h3 {
   text-align: center; }
 
 .about-ingress {
-  font-family: "bebasneue", Impact, Charcoal, sans-serif;
+  font-family: "bebasneue", Helvetica, Impact, Charcoal, sans-serif;
   font-size: 1.500rem;
   color: #ffc930;
   text-transform: uppercase; }
@@ -437,7 +437,7 @@ h6 {
   text-transform: uppercase; }
 
 .workers-text p:nth-of-type(1) {
-  font-family: "bebas neue", Impact, Charcoal, sans-serif;
+  font-family: "bebas neue", Helvetica, Impact, Charcoal, sans-serif;
   font-size: 1.5em;
   font-weight: bold;
   text-transform: uppercase;
@@ -472,7 +472,7 @@ h6 {
   background-size: contain; }
 
 h4 {
-  font-family: "bebasneue", Impact, Charcoal, sans-serif;
+  font-family: "bebasneue", Helvetica, Impact, Charcoal, sans-serif;
   font-size: 1.500rem;
   color: #000;
   letter-spacing: 0.125rem;
